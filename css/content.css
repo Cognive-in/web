@@ -1,0 +1,34 @@
+.heading-box {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.w-tabs{
+    position:relative
+}
+.w-tabs:before,.w-tabs:after{
+    content:" ";
+    display:table;
+    grid-column-start:1;
+    grid-row-start:1;
+    grid-column-end:2;
+    grid-row-end:2
+}
+.w-tabs:after{
+    clear:both
+}
+.w-tab-menu{
+    position:relative
+}
+
+.container {
+     width: 100%;
+     max-width: 1044px;
+     margin-right: auto;
+     margin-left: auto;
+     padding-right: 15px;
+     padding-left: 15px;
+}
+ .container.centered {
+     text-align: center;
+}
