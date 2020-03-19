@@ -10,69 +10,73 @@ Theme URI: http://www.htmlbeans.com/html/kyata/
 */
 /* ---------------------------------------------------------
 
-1  fixed-position/.fixed-position
-2  pageHeader/#pageHeader
-3  navOpener/.navOpener
-4  menuHolder/.menuHolder
-5  navCollapse/.navCollapse
-6  menuSocialNetworks/.menuSocialNetworks
-7  sideActive/.sideActive
-8  cartActive/.cartActive
-9  sideOver/.sideOver
-10   sideNavBar/.sideNavBar
-11   sideNav/.sideNav
-12   dropSub/.dropSub
-13   sideWidget/.sideWidget
-14   searchPopup/.searchPopup
-15   searchActive/.searchActive
-16   pageWrapper/#pageWrapper
-17   bgCover/.bgCover
-18   heading/.heading
-19   heading2/.heading2
-20   bannerWrap/.bannerWrap
-21   bannerSlide/.bannerSlide
-22   bdrBtmImg/.bdrBtmImg
-23   abUsSec/.abUsSec
-24   agnBlock/.agnBlock
-25   progressCounter/.progressCounter
-26   sBlock/.sBlock
-27   overlay/.overlay
-28   teamBlock/.teamBlock
-29   teamSlider/.teamSlider
-30   customerService/.customerService
-31   cstmrHolder/.cstmrHolder
-32   customerService/.customerService
-33   filterNav/.filterNav
-34   overTxt/.overTxt
-35   overbgBTxt/.overbgBTxt
-36   gridFilterWrap/.gridFilterWrap
-37   btn-white/.btn-white
-38   cHBlock/.cHBlock
-39   clntBlock/.clntBlock
-40   ratingList/.ratingList
-41   mapHolder/.mapHolder
-42   contactForm/.contactForm
-43   twitHolder/.twitHolder
-44   blogHolder/.blogHolder
-45   newsDescript/.newsDescript
-46   pricePlanList/.pricePlanList
-47   pricePlan/.pricePlan
-48   PlanWrap/.PlanWrap
-49   headerPlan/.headerPlan
-50   planCheckList/.planCheckList
-51   planBtnList/.planBtnList
-52   progressBar/.progressBar
-53   ftContctHolder/.ftContctHolder
-54   postBlock/.postBlock
-55   subcribeForm/.subcribeForm
-56   fNav/.fNav
-57   instImgWrap/.instImgWrap
-58   instTxt/.instTxt
-59   footerArea/.footerArea
-60   ftSocialNetworks/.ftSocialNetworks
-61   mfp-title/.mfp-title
+1	 fixed-position/.fixed-position
+2	 pageHeader/#pageHeader
+3	 navOpener/.navOpener
+4	 menuHolder/.menuHolder
+5	 navCollapse/.navCollapse
+6	 menuSocialNetworks/.menuSocialNetworks
+7	 sideActive/.sideActive
+8	 cartActive/.cartActive
+9	 sideOver/.sideOver
+10	 sideNavBar/.sideNavBar
+11	 sideNav/.sideNav
+12	 dropSub/.dropSub
+13	 sideWidget/.sideWidget
+14	 searchPopup/.searchPopup
+15	 searchActive/.searchActive
+16	 pageWrapper/#pageWrapper
+17	 bgCover/.bgCover
+18	 heading/.heading
+19	 heading2/.heading2
+20	 bannerWrap/.bannerWrap
+21	 bannerSlide/.bannerSlide
+22	 bdrBtmImg/.bdrBtmImg
+23	 abUsSec/.abUsSec
+24	 agnBlock/.agnBlock
+25	 progressCounter/.progressCounter
+26	 sBlock/.sBlock
+27	 overlay/.overlay
+28	 teamBlock/.teamBlock
+29	 teamSlider/.teamSlider
+30	 customerService/.customerService
+31	 cstmrHolder/.cstmrHolder
+32	 customerService/.customerService
+33	 filterNav/.filterNav
+34	 overTxt/.overTxt
+35	 overbgBTxt/.overbgBTxt
+36	 gridFilterWrap/.gridFilterWrap
+37	 btn-white/.btn-white
+38	 cHBlock/.cHBlock
+39	 clntBlock/.clntBlock
+40	 ratingList/.ratingList
+41	 mapHolder/.mapHolder
+42	 contactForm/.contactForm
+43	 twitHolder/.twitHolder
+44	 blogHolder/.blogHolder
+45	 newsDescript/.newsDescript
+46	 pricePlanList/.pricePlanList
+47	 pricePlan/.pricePlan
+48	 PlanWrap/.PlanWrap
+49	 headerPlan/.headerPlan
+50	 planCheckList/.planCheckList
+51	 planBtnList/.planBtnList
+52	 progressBar/.progressBar
+53	 ftContctHolder/.ftContctHolder
+54	 postBlock/.postBlock
+55	 subcribeForm/.subcribeForm
+56	 fNav/.fNav
+57	 instImgWrap/.instImgWrap
+58	 instTxt/.instTxt
+59	 footerArea/.footerArea
+60	 ftSocialNetworks/.ftSocialNetworks
+61	 mfp-title/.mfp-title
 
 --------------------------------------------------------*/
+@font-face{
+  font-family: Sequel;
+  src:url('/fonts/Sequel100Black-45.ttf');
+}
 /* Slider */
 .slick-slider {
   position: relative;
@@ -107,8 +111,7 @@ Theme URI: http://www.htmlbeans.com/html/kyata/
   cursor: hand;
 }
 .h2{
-font-family: /fonts/et-line.ttf
-}
+font-family: Sequel}
 .slick-slider .slick-track,
 .slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
@@ -192,7 +195,7 @@ body {
 }
 
 /* ---------------------------------------------------------
-16   pageWrapper/#pageWrapper
+16	 pageWrapper/#pageWrapper
 --------------------------------------------------------*/
 #pageWrapper {
   position: relative;
@@ -213,7 +216,7 @@ body {
 }
 
 /* ---------------------------------------------------------
-17   bgCover/.bgCover
+17	 bgCover/.bgCover
 --------------------------------------------------------*/
 .bgCover {
   background-size: cover;
@@ -329,7 +332,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-18   heading/.heading
+18	 heading/.heading
 --------------------------------------------------------*/
 .heading {
   font-size: 40px;
@@ -337,7 +340,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-19   heading2/.heading2
+19	 heading2/.heading2
 --------------------------------------------------------*/
 .heading2 {
   font-size: 12px;
@@ -345,7 +348,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-20   bannerWrap/.bannerWrap
+20	 bannerWrap/.bannerWrap
 --------------------------------------------------------*/
 .bannerWrap {
   min-height: 100vh;
@@ -416,7 +419,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-21   bannerSlide/.bannerSlide
+21	 bannerSlide/.bannerSlide
 --------------------------------------------------------*/
 .bannerSlide .slick-arrow {
   position: absolute;
@@ -431,7 +434,7 @@ button:focus, button:active {
 }
 
 .bannerSlide .slick-arrow:hover {
-  color: #eb2c25;
+  color: grey;
 }
 
 .bannerSlide .slickPrev {
@@ -462,7 +465,7 @@ button:focus, button:active {
 }
 
 .bannerSlide .slick-dots .slick-active button:before {
-  background-color: #eb2c25;
+  background-color: grey;
 }
 
 .bannerSlide .slick-active h1, .bannerSlide .slick-active .h1,
@@ -500,7 +503,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-22   bdrBtmImg/.bdrBtmImg
+22	 bdrBtmImg/.bdrBtmImg
 --------------------------------------------------------*/
 .bdrBtmImg {
   width: 40px;
@@ -529,7 +532,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-23   abUsSec/.abUsSec
+23	 abUsSec/.abUsSec
 --------------------------------------------------------*/
 .abUsSec {
   font-size: 14px;
@@ -544,7 +547,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-24   agnBlock/.agnBlock
+24	 agnBlock/.agnBlock
 --------------------------------------------------------*/
 .agnBlock {
   -webkit-transition: all 0.3s ease;
@@ -604,7 +607,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-25   progressCounter/.progressCounter
+25	 progressCounter/.progressCounter
 --------------------------------------------------------*/
 .progressCounter {
   font-size: 16px;
@@ -652,7 +655,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-26   sBlock/.sBlock
+26	 sBlock/.sBlock
 --------------------------------------------------------*/
 .sBlock .ico {
   font-size: 40px;
@@ -671,7 +674,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-27   overlay/.overlay
+27	 overlay/.overlay
 --------------------------------------------------------*/
 .overlay:after {
   content: '';
@@ -687,7 +690,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-28   teamBlock/.teamBlock
+28	 teamBlock/.teamBlock
 --------------------------------------------------------*/
 .teamBlock.overlay:after {
   background-color: rgba(27, 27, 27, 0.5);
@@ -787,7 +790,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-29   teamSlider/.teamSlider
+29	 teamSlider/.teamSlider
 --------------------------------------------------------*/
 .teamSlider .slick-dots,
 .clientSlider .slick-dots {
@@ -846,7 +849,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-30   customerService/.customerService
+30	 customerService/.customerService
 --------------------------------------------------------*/
 .customerService {
   min-height: 250px;
@@ -879,7 +882,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-31   cstmrHolder/.cstmrHolder
+31	 cstmrHolder/.cstmrHolder
 --------------------------------------------------------*/
 .cstmrHolder {
   font-size: 20px;
@@ -911,7 +914,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-32   customerService/.customerService
+32	 customerService/.customerService
 --------------------------------------------------------*/
 .customerService.overlay:after {
   z-index: -1;
@@ -919,7 +922,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-33   filterNav/.filterNav
+33	 filterNav/.filterNav
 --------------------------------------------------------*/
 .filterNav {
   font-size: 11px;
@@ -940,7 +943,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-34   overTxt/.overTxt
+34	 overTxt/.overTxt
 --------------------------------------------------------*/
 .overTxt {
   left: 0;
@@ -961,7 +964,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-35   overbgBTxt/.overbgBTxt
+35	 overbgBTxt/.overbgBTxt
 --------------------------------------------------------*/
 .overbgBTxt {
   left: 5%;
@@ -997,7 +1000,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-36   gridFilterWrap/.gridFilterWrap
+36	 gridFilterWrap/.gridFilterWrap
 --------------------------------------------------------*/
 .gridFilterWrap .element-item {
   width: 100%;
@@ -1075,7 +1078,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-37   btn-white/.btn-white
+37	 btn-white/.btn-white
 --------------------------------------------------------*/
 .btn-white {
   color: #eb2c25;
@@ -1083,7 +1086,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-38   cHBlock/.cHBlock
+38	 cHBlock/.cHBlock
 --------------------------------------------------------*/
 .cHBlock .h3 {
   line-height: 25px;
@@ -1109,12 +1112,12 @@ button:focus, button:active {
 }
 
 .cHBlock .btn:hover {
-  background-color: #1b1b1b;
-  color: #eb2c25;
+  background-color: grey;
+  color: white;
 }
 
 /* ---------------------------------------------------------
-39   clntBlock/.clntBlock
+39	 clntBlock/.clntBlock
 --------------------------------------------------------*/
 .clntBlock {
   line-height: 25px;
@@ -1148,7 +1151,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-40   ratingList/.ratingList
+40	 ratingList/.ratingList
 --------------------------------------------------------*/
 .ratingList {
   font-size: 11px;
@@ -1172,7 +1175,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-41   mapHolder/.mapHolder
+41	 mapHolder/.mapHolder
 --------------------------------------------------------*/
 .mapHolder {
   height: 260px;
@@ -1208,7 +1211,7 @@ button:focus, button:active {
 }
 
 /* ---------------------------------------------------------
-42   contactForm/.contactForm
+42	 contactForm/.contactForm
 --------------------------------------------------------*/
 .contactForm .form-control,
 .contactForm .jcf-select {
@@ -1384,7 +1387,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-43   twitHolder/.twitHolder
+43	 twitHolder/.twitHolder
 --------------------------------------------------------*/
 .twitHolder {
   min-width: 340px;
@@ -1447,7 +1450,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-44   blogHolder/.blogHolder
+44	 blogHolder/.blogHolder
 --------------------------------------------------------*/
 .blogHolder:hover .overlay:after {
   opacity: 1;
@@ -1515,7 +1518,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-45   newsDescript/.newsDescript
+45	 newsDescript/.newsDescript
 --------------------------------------------------------*/
 .newsDescript {
   z-index: 2;
@@ -1533,7 +1536,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-46   pricePlanList/.pricePlanList
+46	 pricePlanList/.pricePlanList
 --------------------------------------------------------*/
 .pricePlanList .PlanWrap {
   position: relative;
@@ -1553,7 +1556,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-47   pricePlan/.pricePlan
+47	 pricePlan/.pricePlan
 --------------------------------------------------------*/
 .pricePlan {
   -webkit-backface-visibility: hidden;
@@ -1574,7 +1577,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-48   PlanWrap/.PlanWrap
+48	 PlanWrap/.PlanWrap
 --------------------------------------------------------*/
 .PlanWrap.is-switched .is-visible {
   -webkit-transform: rotateY(180deg);
@@ -1630,7 +1633,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-49   headerPlan/.headerPlan
+49	 headerPlan/.headerPlan
 --------------------------------------------------------*/
 .headerPlan:before {
   content: '';
@@ -1713,7 +1716,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-50   planCheckList/.planCheckList
+50	 planCheckList/.planCheckList
 --------------------------------------------------------*/
 .planCheckList {
   font-size: 13px;
@@ -1736,7 +1739,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-51   planBtnList/.planBtnList
+51	 planBtnList/.planBtnList
 --------------------------------------------------------*/
 .planBtnList .btn-group {
   border: 2px solid #eb2c25;
@@ -1784,7 +1787,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-52   progressBar/.progressBar
+52	 progressBar/.progressBar
 --------------------------------------------------------*/
 .progressBar {
   width: 100%;
@@ -1993,7 +1996,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-1  fixed-position/.fixed-position
+1	 fixed-position/.fixed-position
 --------------------------------------------------------*/
 .fixed-position {
   position: fixed;
@@ -2009,7 +2012,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-2  pageHeader/#pageHeader
+2	 pageHeader/#pageHeader
 --------------------------------------------------------*/
 #pageHeader {
   top: 0;
@@ -2021,7 +2024,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-3  navOpener/.navOpener
+3	 navOpener/.navOpener
 --------------------------------------------------------*/
 .navOpener {
   font-size: 17px;
@@ -2033,7 +2036,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-4  menuHolder/.menuHolder
+4	 menuHolder/.menuHolder
 --------------------------------------------------------*/
 .menuHolder .navCollapse {
   font-size: 12px;
@@ -2093,7 +2096,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-5  navCollapse/.navCollapse
+5	 navCollapse/.navCollapse
 --------------------------------------------------------*/
 .navCollapse li + li {
   margin-left: 8px;
@@ -2106,7 +2109,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-6  menuSocialNetworks/.menuSocialNetworks
+6	 menuSocialNetworks/.menuSocialNetworks
 --------------------------------------------------------*/
 .menuSocialNetworks {
   font-size: 14px;
@@ -2156,7 +2159,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-7  sideActive/.sideActive
+7	 sideActive/.sideActive
 --------------------------------------------------------*/
 .sideActive .sideNavBar {
   -webkit-transform: translateX(0);
@@ -2172,7 +2175,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-8  cartActive/.cartActive
+8	 cartActive/.cartActive
 --------------------------------------------------------*/
 .cartActive .cartOpener,
 .cartActive .icon {
@@ -2187,7 +2190,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-9  sideOver/.sideOver
+9	 sideOver/.sideOver
 --------------------------------------------------------*/
 .sideOver {
   position: fixed;
@@ -2205,7 +2208,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-10   sideNavBar/.sideNavBar
+10	 sideNavBar/.sideNavBar
 --------------------------------------------------------*/
 .sideNavBar {
   width: 370px;
@@ -2226,7 +2229,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-11   sideNav/.sideNav
+11	 sideNav/.sideNav
 --------------------------------------------------------*/
 .sideNav {
   font-size: 16px;
@@ -2292,7 +2295,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-12   dropSub/.dropSub
+12	 dropSub/.dropSub
 --------------------------------------------------------*/
 .dropSub {
   top: 100%;
@@ -2313,7 +2316,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-13   sideWidget/.sideWidget
+13	 sideWidget/.sideWidget
 --------------------------------------------------------*/
 .sideWidget {
   overflow: hidden;
@@ -2366,7 +2369,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-14   searchPopup/.searchPopup
+14	 searchPopup/.searchPopup
 --------------------------------------------------------*/
 .searchPopup {
   top: 0;
@@ -2505,7 +2508,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-15   searchActive/.searchActive
+15	 searchActive/.searchActive
 --------------------------------------------------------*/
 .searchActive .searchPopup {
   opacity: 1;
@@ -2521,7 +2524,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-53   ftContctHolder/.ftContctHolder
+53	 ftContctHolder/.ftContctHolder
 --------------------------------------------------------*/
 .ftContctHolder a {
   color: #fff;
@@ -2535,7 +2538,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-54   postBlock/.postBlock
+54	 postBlock/.postBlock
 --------------------------------------------------------*/
 .postBlock {
   background: transparent;
@@ -2572,7 +2575,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-55   subcribeForm/.subcribeForm
+55	 subcribeForm/.subcribeForm
 --------------------------------------------------------*/
 .subcribeForm .form-control {
   height: 50px;
@@ -2622,7 +2625,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-56   fNav/.fNav
+56	 fNav/.fNav
 --------------------------------------------------------*/
 .fNav {
   font-size: 14px;
@@ -2661,7 +2664,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-57   instImgWrap/.instImgWrap
+57	 instImgWrap/.instImgWrap
 --------------------------------------------------------*/
 .instImgWrap {
   margin-left: -2px;
@@ -2725,7 +2728,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-58   instTxt/.instTxt
+58	 instTxt/.instTxt
 --------------------------------------------------------*/
 .instTxt {
   font-size: 13px;
@@ -2741,7 +2744,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-59   footerArea/.footerArea
+59	 footerArea/.footerArea
 --------------------------------------------------------*/
 .footerArea {
   border-top: 1px solid rgba(238, 238, 238, 0.05);
@@ -2763,7 +2766,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-60   ftSocialNetworks/.ftSocialNetworks
+60	 ftSocialNetworks/.ftSocialNetworks
 --------------------------------------------------------*/
 .ftSocialNetworks {
   font-size: 14px;
@@ -2786,7 +2789,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 /* ---------------------------------------------------------
-61   mfp-title/.mfp-title
+61	 mfp-title/.mfp-title
 --------------------------------------------------------*/
 .mfp-title {
   font-size: 13px;
@@ -3266,8 +3269,7 @@ you can use the generic selector below, but it's slower:
   content: "\e063";
 }
 .textq-background{
-  background-color: #f8f8f8;
-background-image: url("images/overlapping-diamonds.svg");
+background-image: url("images/overdia.svg");
 background-repeat: repeat-x;
 }
 .site_img{

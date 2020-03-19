@@ -34,7 +34,7 @@
 #conference-timeline .conference-center-line {
   position: absolute;
   width: 3px;
-  height: 91%;
+  height: 89%;
   top: 0;
   margin-top: 90px;
   left: 50%;
@@ -44,7 +44,7 @@
 }
 #conference-timeline .conference-timeline-content {
   padding-top: 67px;
-  padding-bottom: 67px;
+  padding-bottom: 25px;
 }
 .timeline-article {
   width: 100%;
